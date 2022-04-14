@@ -25,6 +25,7 @@ requirements:
     - numpy-stl
     - python >=3.7
     - scikit-image
+    - vedo
 
 test:
   commands:
