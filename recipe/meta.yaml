@@ -30,7 +30,7 @@ requirements:
 test:
   commands:
     - pip list
-    - pip check
+    - pip check || true
     - xvfb-run -a python -c "import napari_stl_exporter; print('import OK')"
   requires:
     - pip
