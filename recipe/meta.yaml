@@ -27,11 +27,10 @@ requirements:
     - scikit-image
 
 test:
-  imports:
-    - napari_stl_exporter
   commands:
     - pip list
     - pip check
+    - xvfb-run -a python -c "import napari_stl_exporter; print('import OK')"
   requires:
     - pip
 
