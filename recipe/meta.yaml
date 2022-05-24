@@ -1,5 +1,5 @@
 {% set name = "napari-stl-exporter" %}
-{% set version = "0.0.6" %}
+{% set version = "0.0.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-stl-exporter-{{ version }}.tar.gz
-  sha256: a16d9f6cd277e480d7cf25ac9c4e461d5d31a76964628fdb8f7f827d1ef8e1fb
+  sha256: 18c45e82e0eec94ba03a2570630390c59e5e726bd3aea7fb79235cabc48c0dc7
 
 build:
   noarch: python
