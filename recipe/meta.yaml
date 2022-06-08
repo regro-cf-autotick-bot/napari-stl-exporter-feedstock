@@ -21,11 +21,11 @@ requirements:
   run:
     - python >=3.7
     - napari
-	  - napari-plugin-engine>=0.1.4
-	  - numpy
-	  - scikit-image
-	  - vedo
-	  - npe2
+    - napari-plugin-engine>=0.1.4
+    - numpy
+    - scikit-image
+    - vedo
+    - npe2
 
 test:
   commands:
