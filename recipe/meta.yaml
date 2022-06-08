@@ -1,13 +1,15 @@
 {% set name = "napari-stl-exporter" %}
-{% set version = "0.0.6" %}
+{% set version = "0.0.10" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-stl-exporter-{{ version }}.tar.gz
-  sha256: a16d9f6cd277e480d7cf25ac9c4e461d5d31a76964628fdb8f7f827d1ef8e1fb
+  url: https://github.com/jo-mueller/napari-stl-exporter/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: 9894ae56eba3983bf907ef9619aaba2d86580a50fd801cd619063b000b3219fd
+  patches:
+    - setup_cfg.patch
 
 build:
   noarch: python
@@ -19,13 +21,13 @@ requirements:
     - pip
     - python >=3.7
   run:
+    - python >=3.7
     - napari
     - napari-plugin-engine >=0.1.4
     - numpy
-    - numpy-stl
-    - python >=3.7
     - scikit-image
     - vedo
+    - npe2
 
 test:
   commands:
