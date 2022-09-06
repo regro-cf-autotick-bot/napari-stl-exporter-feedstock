@@ -8,8 +8,6 @@ package:
 source:
   url: https://github.com/jo-mueller/napari-stl-exporter/archive/refs/tags/v{{ version }}.tar.gz
   sha256: c406e5d53e05357efd5b20d5c6f4e593f01334f661c2bb9eaf2cb80fc0c3a300
-  patches:
-    - setup_cfg.patch
 
 build:
   noarch: python
