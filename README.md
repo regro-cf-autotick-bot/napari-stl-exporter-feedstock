@@ -1,11 +1,11 @@
-About napari-stl-exporter
-=========================
+About napari-stl-exporter-feedstock
+===================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/napari-stl-exporter-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/jo-mueller/napari-stl-exporter
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/napari-stl-exporter-feedstock/blob/main/LICENSE.txt)
 
 Summary: Exports label images to 3D-printable stl files.
 
