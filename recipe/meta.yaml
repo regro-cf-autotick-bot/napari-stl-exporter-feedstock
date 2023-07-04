@@ -1,5 +1,5 @@
 {% set name = "napari-stl-exporter" %}
-{% set version = "0.1.4" %}
+{% set version = "0.1.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/jo-mueller/napari-stl-exporter/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 9fff5a7d0ad9ef52298a33fdea040e002dbc1cf8b78c6208da0b0457e961801a
+  sha256: 833844548beb5bde0555dde475ea6a0f7a35a253bdb63d438479d527486762ae
 
 build:
   noarch: python
